@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+	<Appenders>
+		<RollingFile name="fileLogger" fileName="logs/app.log" filePattern="logs/app-%d{HH:mm:ss.SSS}.log">
+			<!--${filename} will be replaced by folder name (logs) -->
+			<PatternLayout>
+				<pattern>"%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"</pattern>
+			</PatternLayout>
+			<SizeBasedTriggeringPolicy size="500" />
+		</RollingFile>
+
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+	</Appenders>
+
+	<Loggers>
+		<Logger name="console" level="info">
+			<AppenderRef ref="Console" />
+
+		</Logger>
+		<Root level="info">
+			<AppenderRef ref="Console" />
+			<appender-ref ref="fileLogger" />  <!-- is required to append into the file ref must be same as the Rolling file name-->
+		</Root>
+	</Loggers>
+</Configuration>

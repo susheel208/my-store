@@ -1,0 +1,15 @@
+"10:11:26.000 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+""10:11:26.043 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Sandip\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+""10:11:50.095 [main] INFO  com.mystore.utilities.Log - =====================================loginTest TEST START======================================
+""10:11:50.127 [main] INFO  com.mystore.utilities.Log - index page opened
+""10:11:53.002 [main] INFO  com.mystore.utilities.Log - signin btn clicked
+""10:11:53.010 [main] INFO  com.mystore.utilities.Log - entering Login details
+""10:11:55.667 [main] INFO  com.mystore.utilities.Log - Login is Successfull
+""10:11:55.667 [main] INFO  com.mystore.utilities.Log - =====================================loginTest TEST END=========================================
+""11:13:07.769 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+""11:13:07.809 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Sandip\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+""11:14:48.109 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+""11:14:48.168 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Sandip\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+""11:16:24.858 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+""11:16:24.906 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Sandip\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+"
